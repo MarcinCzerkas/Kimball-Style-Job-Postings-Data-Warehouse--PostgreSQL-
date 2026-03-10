@@ -192,3 +192,5 @@ This project was built as a learning initiative to deepen understanding of:
 - Dimensional modeling
 
 It bridges the gap between data analysis and data engineering, with an emphasis on correct modeling discipline rather than just query results.
+
+![](https://komarev.com/ghpvc/?username=MarcinCzerkas&style=flat-square&label=VIEWS&style=pixel)
