@@ -152,6 +152,7 @@ Compared to the original implementation from Luke Barousse, this version introdu
 - Strict dimensional modeling discipline as per Ralph Kimball
 - Dedicated date dimension
 - Warehouse-oriented schema (all attributes moved from fact table to dedicated dimensions)
+- Entire data quality validation layer
 
 The goal was to move from SQL transformations for analytics to architected dimensional data warehouse.
 
@@ -166,6 +167,7 @@ This project demonstrates the ability to:
 - Design star schemas intentionally
 - Handle complex relationships (many-to-many)
 - Structure SQL-based ETL
+- Data quality awareness
 - Think beyond analysis toward data engineering architecture
 
 ---
@@ -179,7 +181,7 @@ Future improvements could include:
 - Indexing strategy optimization
 - Partitioning of fact table, incremental loading logic
 - Views for BI consumption
-- Data quality validation layer
+- ~~Data quality validation layer (**done**)~~
 
 ---
 
